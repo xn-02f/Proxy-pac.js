@@ -1,6 +1,5 @@
 <div align=center>
-    <img src="https://huiyifyj.github.io/proxy_pac.js/images/icons
-    /paper_plane.svg" alt="proxy_pac.js" width="64"/>
+    <img src="https://huiyifyj.github.io/proxy_pac.js/images/icons/paper_plane.svg" alt="proxy_pac.js" width="64"/>
     <h2>Proxy_pac.js</h2>
 </div>
 
