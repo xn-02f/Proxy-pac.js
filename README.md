@@ -1,5 +1,5 @@
 <div align=center>
-	<img src="https://huiyifyj.github.io/proxy_pac.js/images/icons/paper_plane.svg" alt="proxy_pac.js" width="64"/>
+	<img src="https://huiyifyj.github.io/Proxy-pac.js/images/icons/paper_plane.svg" alt="proxy_pac.js" width="64"/>
 </div>
 
 ---
@@ -10,8 +10,8 @@
 <br>
 <br>
 反馈
-<a href="https://huiyifyj.github.io">
-	<img src="http://huiyifyj.github.io/proxy_pac.js/images/icons/feedback.svg" alt="Feedback" width="32"/>
+<a href="https://github.com/huiyifyj/Proxy-pac.js/issues">
+	<img src="https://huiyifyj.github.io/Proxy-pac.js/images/icons/feedback.svg" alt="Feedback" width="16" />
 </a>
 <br>
 <br>
