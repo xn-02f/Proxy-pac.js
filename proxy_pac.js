@@ -1,29 +1,10 @@
-/* 
+/*
  * This file is part of Proxy-pac.js
  * Copyright (C) 2018 HuiyiFYJ
  * jxfengyijie@gmail.com | huiyifyj.cn | github.com/huiyifyj/Proxy-pac.js
  * LICENSE: GPL-3.0
  */
 
- //Google Analytics Coding
-document.write('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111470410-2"></script>');
-
-function analytics()
-{
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-111470410-2');	//Analytic UA-ID
-}
-if (document.all){
-	window.attachEvent('onload',analytics);
-}
-else{
-	window.addEventListener('load',analytics,false);
-}
-
-//代理变量定义
 var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
@@ -3880,6 +3861,8 @@ var rules = [
   "@@||nici.nat.gov.tw",
   "@@||cromotc.nat.gov.tw",
   "@@||taitung-house.gov.tw",
+  "174.142.105.153",
+  "69.65.19.160",
   "@@||aliyun.com",
   "@@||baidu.com",
   "@@||chinaso.com",
