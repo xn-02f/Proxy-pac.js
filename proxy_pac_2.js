@@ -6,13 +6,18 @@
  */
 
 var domains = {
+  "telesco.pe": 1, 
   "4shared.com": 1, 
+  "mega.nz": 1, 
   "dtiserv2.com": 1, 
+  "galstars.net": 1, 
   "gloryhole.com": 1, 
   "bitcointalk.org": 1, 
   "dogfartnetwork.com": 1, 
   "tibetoffice.eu": 1, 
+  "bianlei.com": 1, 
   "mingpaovan.com": 1, 
+  "islahhaber.net": 1, 
   "wikinews.org": 1, 
   "passion.com": 1, 
   "joachims.org": 1, 
@@ -57,6 +62,7 @@ var domains = {
   "chinman.net": 1, 
   "ugo.com": 1, 
   "looktoronto.com": 1, 
+  "army.mil": 1, 
   "videopress.com": 1, 
   "tibet-munich.de": 1, 
   "amoiist.com": 1, 
