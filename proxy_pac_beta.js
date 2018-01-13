@@ -167,7 +167,6 @@ var rules = [
   "||advertfan.com",
   "||aenhancers.com",
   "||af.mil",
-  "aiph.net",
   "||aiph.net",
   "|http:\/\/download.aircrack-ng.org",
   ".aisex.com",
