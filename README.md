@@ -12,5 +12,5 @@
 <br>
 <br>
 <div align=center>
-	&copy; 2018 | <a href="http://huiyifyj.cn">回亿FYJ</a>
+	&copy; 2018 &nbsp; | &nbsp; <a href="http://huiyifyj.cn">回亿FYJ</a>
 </div>
