@@ -3,6 +3,8 @@
 	<h2>Proxy-pac.js</h2>
 </div>
 
+> LICENSE: [GPL-3.0](https://github.com/huiyifyj/Proxy-pac.js/blob/master/LICENSE)
+
 <br>
 <br>
 反馈
