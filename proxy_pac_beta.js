@@ -8,12 +8,12 @@
 var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
-  ".lsxszzg.com",
   "||googleblog.com",
   "||tdesktop.com", //添加telegram桌面下载地址
   "||getpocket.com",
   "||goagentx.com",
   "downloads.atlassian.com",
+  ".lsxszzg.com",
   "garr.dl.sourceforge.net",
   "||repo1.maven.org",
   "||maven.ibiblio.org",
