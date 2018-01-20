@@ -8,6 +8,12 @@
 var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
+  "|http:\/\/softwaredownload.gitbooks.io\/",
+  "||git-scm.com",
+  "|https:\/\/gist.github.com",
+  "github.com",
+  "|http:\/\/cthlo.github.io\/hktv",
+  "|http:\/\/wsgzao.github.io\/post\/gfw-break",
   "||googleblog.com",
   "||tdesktop.com",
   "||getpocket.com",
@@ -1203,11 +1209,6 @@ var rules = [
   "gigporno.ru",
   "||gimpshop.com",
   "||girlbanker.com",
-  "|http:\/\/softwaredownload.gitbooks.io\/",
-  "|https:\/\/gist.github.com",
-  "github.com",
-  "|http:\/\/cthlo.github.io\/hktv",
-  "|http:\/\/wsgzao.github.io\/post\/gfw-break",
   "||glennhilton.com",
   "globaljihad.net",
   "globalmuseumoncommunism.org",
@@ -1384,7 +1385,6 @@ var rules = [
   "||cl.ly",
   "@@||f.cl.ly",
   "||getsmartlinks.com",
-  "||git-scm.com",
   "||lesscss.org",
   "||list.ly",
   "||maxgif.com",
