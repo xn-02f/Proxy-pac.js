@@ -9,7 +9,7 @@ var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
   "||googleblog.com",
-  "||tdesktop.com", //添加telegram桌面下载地址
+  "||tdesktop.com",
   "||getpocket.com",
   "||goagentx.com",
   "downloads.atlassian.com",
@@ -168,6 +168,7 @@ var rules = [
   "||advertfan.com",
   "||aenhancers.com",
   "||af.mil",
+  "aiph.net",
   "||aiph.net",
   "|http:\/\/download.aircrack-ng.org",
   ".aisex.com",
@@ -3862,6 +3863,8 @@ var rules = [
   "@@||nici.nat.gov.tw",
   "@@||cromotc.nat.gov.tw",
   "@@||taitung-house.gov.tw",
+  "174.142.105.153",
+  "69.65.19.160",
   "@@||aliyun.com",
   "@@||baidu.com",
   "@@||chinaso.com",
