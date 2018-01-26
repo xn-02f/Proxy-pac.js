@@ -2,7 +2,14 @@
   "name": "proxy-pac.js",
   "version": "0.1.0",
   "description": "Proxy auto-config (PAC) file in JavaScript.",
+  "homepage": "http://pac.huiyifyj.cn",
   "main": "test.js",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Huiyi.FYJ",
+    "email": "jxfengyijie@gmail.com",
+    "url": "http://huiyifyj.cn"
+  },
   "scripts": {
     "test": "no"
   },
@@ -17,14 +24,7 @@
     "network",
     "js"
   ],
-  "author": {
-    "name": "Huiyi.FYJ",
-    "email": "jxfengyijie@gmail.com",
-    "url": "http://huiyifyj.cn"
-  },
-  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
-  },
-  "homepage": "http://pac.huiyifyj.cn"
+  }
 }
