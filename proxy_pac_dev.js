@@ -8,6 +8,8 @@
 var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
+  "||t.me",
+  "||telegram.me",
   "||tumblr.com",
   "|http:\/\/softwaredownload.gitbooks.io\/",
   "||git-scm.com",
