@@ -4,9 +4,9 @@
 </div>
 <br>
 
-This is a file that set proxy auto-confg(PAC) file.
-Currently only supports PC.
-Node.js:
+This is a file that set proxy auto-confg(PAC) file.<br>
+Currently supports most main platform.<br>
+安装实现:
 - 安装：<br>
   `npm install proxy-pac.js`
 - 更新：<br>
