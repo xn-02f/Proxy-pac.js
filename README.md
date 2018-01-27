@@ -1,8 +1,9 @@
 <div align=center>
   <img src="https://huiyifyj.github.io/Proxy-pac.js/images/icons/paper_plane.svg" alt="Proxy-pac.js" width="64"/>
 	<h2>Proxy-pac.js</h2>
-  <img src="https://img.shields.io/npm/v/proxy-pac.js.svg?style=flat-square" alt="npm-version">
   <img src="https://img.shields.io/github/license/huiyifyj/Proxy-pac.js.svg?style=flat-square" alt="license/copying">
+  <img src="https://img.shields.io/npm/v/proxy-pac.js.svg?style=flat-square" alt="npm-version">
+  <img alt="donate" src="https://img.shields.io/badge/$-donate-ff69b4.svg?style=flat-square">
 </div>
 <br>
 
