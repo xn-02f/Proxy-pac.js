@@ -10,12 +10,15 @@
     "email": "jxfengyijie@gmail.com",
     "url": "http://huiyifyj.cn"
   },
-  "scripts": {
-    "test": "no"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huiyifyj/Proxy-pac.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
+  },
+  "scripts": {
+    "test": "no"
   },
   "keywords": [
     "proxy-pac",
@@ -23,8 +26,5 @@
     "gwf",
     "network",
     "js"
-  ],
-  "bugs": {
-    "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
-  }
+  ]
 }
