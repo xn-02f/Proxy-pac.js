@@ -6,6 +6,7 @@
  */
 
 var domains = {
+  "t.me": 1,
   "telesco.pe": 1,
   "4shared.com": 1,
   "mega.nz": 1,
