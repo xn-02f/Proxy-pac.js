@@ -12,7 +12,7 @@ Currently supports most main platform.<br>
 Try:
 - Install：<br>
   `npm install proxy-pac.js`
-- update：<br>
+- Update：<br>
   `npm update proxy-pac.js`
 
 > LICENSE: [GPL-3.0](https://github.com/huiyifyj/Proxy-pac.js/blob/master/LICENSE)
@@ -26,5 +26,5 @@ Try:
 <br>
 <br>
 <div align=center>
-	&copy; 2018 &nbsp; | &nbsp; <a href="http://huiyifyj.cn">回亿FYJ</a>
+	&copy; 2018 &nbsp; | &nbsp; <a href="https://huiyifyj.github.io">Huiyi.FYJ</a>
 </div>

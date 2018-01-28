@@ -1,6 +1,6 @@
 /*
  * This file is part of Proxy-pac.js
- * Copyright (C) 2018 HuiyiFYJ
+ * Copyright (C) 2018 Huiyi.FYJ
  * jxfengyijie@gmail.com | huiyifyj.cn | github.com/huiyifyj/Proxy-pac.js
  * LICENSE: GPL-3.0
  */
