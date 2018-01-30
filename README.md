@@ -8,7 +8,7 @@
 <br>
 
 This is a file that set proxy auto-config(PAC) file.<br>
-Currently supports most main platform.<br>
+Currently supports main platform.<br>
 <br>
 **Try**:
 - Install：<br>
@@ -16,7 +16,8 @@ Currently supports most main platform.<br>
 - Update：<br>
   `$ npm update proxy-pac.js`
 
-**Note**: This project is developing.
+**Note**: This project is developing. <br>
+These files can be used currently as pac file for you proxy (eg. shadowsocks) on linux.
 
 > LICENSE: [GPL-3.0](https://github.com/huiyifyj/Proxy-pac.js/blob/master/LICENSE)
 
