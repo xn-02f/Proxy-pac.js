@@ -1,3 +1,3 @@
-exports.show = function () {
-  console.log("This is proxy auto-config file made by Huiyi.FYJ.");
-}
+console.log("Prox-pac.js is developing.");
+console.log("But, ");
+console.log("These files can be used currently as pac file for you proxy (eg. shadowsocks) on linux.");
