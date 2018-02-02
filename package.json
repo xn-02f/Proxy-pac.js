@@ -18,9 +18,10 @@
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
   },
   "scripts": {
-    "test": "no"
+    "test": "node test.js"
   },
   "keywords": [
+    "Proxy-pac.js",
     "proxy-pac",
     "proxy",
     "gwf",
