@@ -42,6 +42,7 @@ var rules = [
   ".yes.xxx",
   ".3movs.com",
   "|http:\/\/85.17.73.31\/",
+  "||av.com",
   "||alien-ufos.com",
   "||altrec.com",
   "||asianspiss.com",
