@@ -4,6 +4,7 @@
  * jxfengyijie@gmail.com | huiyifyj.cn | github.com/huiyifyj/Proxy-pac.js
  * LICENSE: GPL-3.0
  */
+//Note: this file stop maintenance
 
 var domains = {
   "t.me": 1,
