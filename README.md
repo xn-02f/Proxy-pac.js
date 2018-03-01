@@ -3,9 +3,8 @@
 	<h2>Proxy-pac.js</h2>
   <a href="https://github.com/huiyifyj/Proxy-pac.js/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/proxy-pac.js.svg?style=flat-square" alt="license/copying"></a>
   <a href="https://www.npmjs.com/package/proxy-pac.js"><img src="https://img.shields.io/npm/v/proxy-pac.js.svg?style=flat-square" alt="npm-version"></a>
-  <!-- ignore this
-  <img alt="donate" src="https://img.shields.io/badge/donate-@huiyifyj-ff69b4.svg?style=flat-square">
-  -->
+  <img alt="donate" src="https://img.shields.io/badge/Donate-@huiyifyj-66ccff.svg?style=flat-square">
+  <a href="https://www.paypal.me/fengyijie"><img alt="PayPal" src="https://img.shields.io/badge/PayPal-Tip me-green.svg?style=flat-square&logo=paypal"></a>
 </div>
 <br>
 
