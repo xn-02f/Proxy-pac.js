@@ -9,9 +9,11 @@ var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
   "||disqus.com",
+  /* telegram domains */
   "||t.me",
   "||telegram.org",
   "||telegram.dog",
+  "||tdesktop.com",
   "||telesco.pe",
   "||telegram.me",
   "||tumblr.com",
@@ -22,7 +24,6 @@ var rules = [
   "|http:\/\/cthlo.github.io\/hktv",
   "|http:\/\/wsgzao.github.io\/post\/gfw-break",
   "||googleblog.com",
-  "||tdesktop.com",
   "||getpocket.com",
   "||goagentx.com",
   "downloads.atlassian.com",
