@@ -8,7 +8,8 @@
 var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
-  "||disqus.com",
+  /* Google */
+  "||googleblog.com",
   /* telegram domains */
   "||t.me",
   "||telegram.org",
@@ -17,13 +18,14 @@ var rules = [
   "||telesco.pe",
   "||telegram.me",
   "||tumblr.com",
-  "|http:\/\/softwaredownload.gitbooks.io\/",
+  /* git and github */
   "||git-scm.com",
+  "|http:\/\/softwaredownload.gitbooks.io\/",
   "|https:\/\/gist.github.com",
-  "github.com",
+  "||github.com",
   "|http:\/\/cthlo.github.io\/hktv",
   "|http:\/\/wsgzao.github.io\/post\/gfw-break",
-  "||googleblog.com",
+  "||disqus.com",
   "||getpocket.com",
   "||goagentx.com",
   "downloads.atlassian.com",
