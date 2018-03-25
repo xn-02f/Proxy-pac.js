@@ -18,7 +18,8 @@
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "min": "uglifyjs proxy-pac.js -m -o proxy-pac.min.js"
   },
   "keywords": [
     "Proxy-pac.js",
