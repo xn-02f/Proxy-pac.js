@@ -51,6 +51,7 @@ var rules = [
   "||0rz.tw",
   /* Other common active domains */
   "||disqus.com",
+  "||disq.us"
   "||getpocket.com",
   "||vevo.com",
   "ift.tt",
