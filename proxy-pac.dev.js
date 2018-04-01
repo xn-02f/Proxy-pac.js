@@ -15,6 +15,7 @@ var rules = [
   "||gmail.com",
   "\/^https?:\\\/\\\/[^\\\/]+google\\.(.*)\/",
   "||youtu.be",
+  "||you.tube"
   "||youtube.com",
   "||youtube-nocookie.com",
   /* telegram domains */
