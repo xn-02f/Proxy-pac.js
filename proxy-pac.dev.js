@@ -15,7 +15,7 @@ var rules = [
   "||gmail.com",
   "\/^https?:\\\/\\\/[^\\\/]+google\\.(.*)\/",
   "||youtu.be",
-  "||you.tube"
+  "||you.tube",
   "||youtube.com",
   "||youtube-nocookie.com",
   /* telegram domains */
@@ -52,7 +52,7 @@ var rules = [
   "||0rz.tw",
   /* Other common active domains */
   "||disqus.com",
-  "||disq.us"
+  "||disq.us",
   "||getpocket.com",
   "||vevo.com",
   "ift.tt",
