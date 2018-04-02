@@ -9,15 +9,17 @@ var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
   /* Google */
+  "\/^https?:\\\/\\\/[^\\\/]+google\\.(.*)\/",
   "||googleblog.com",
   "||g.co",
   "||goo.gl",
   "||gmail.com",
-  "\/^https?:\\\/\\\/[^\\\/]+google\\.(.*)\/",
   "||youtu.be",
   "||you.tube",
   "||youtube.com",
   "||youtube-nocookie.com",
+  "||firebase.com",
+  "||golang.org",
   /* telegram domains */
   "||t.me",
   "||telegram.org",
@@ -1332,7 +1334,6 @@ var rules = [
   "\/^https?:\\\/\\\/[^\\\/]+appspot\\.com\/",
   "chinaaid.net",
   "echofon.com",
-  "||golang.org",
   "||greasespot.net",
   "||www.klip.me",
   "@@||site.locql.com",
@@ -3891,7 +3892,6 @@ var rules = [
   "@@||jike.com",
   "@@|http:\/\/translate.google.cn",
   "@@|http:\/\/www.google.cn\/maps",
-  "@@||http2.golang.org",
   "@@||qq.com",
   "@@||sina.cn",
   "@@||sina.com.cn",
