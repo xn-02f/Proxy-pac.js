@@ -86,6 +86,7 @@ var rules = [
   "|http:\/\/bit.ly",
   "||0rz.tw",
   /* Other common active domains */
+  "||shadowsocks.org",
   "||disqus.com",
   "||disq.us",
   "||getpocket.com",
@@ -2558,7 +2559,6 @@ var rules = [
   ".sftuk.org",
   "||sftuk.org",
   "shadow.ma",
-  "||shadowsocks.org",
   "shahamat-english.com",
   ".shangfang.org",
   "||shangfang.org",
