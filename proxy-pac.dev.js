@@ -96,6 +96,7 @@ var rules = [
   "||dropbox.com",
   "||dropboxusercontent.com",
   "||netflix.com",
+  "||gumroad.com",
   "||flickr.com",
   "||staticflickr.com",
   "flickrhivemind.net",
