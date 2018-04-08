@@ -3750,52 +3750,49 @@ var rules = [
   "ultrareach",
   "ultrasurf",
   "zhengjian",
-  "%E7%BD%A2%E8%AF%BE",
-  "search*%E5%8D%9A%E8%AE%AF",
-  "search*%E5%A4%A7%E7%BA%AA%E5%85%83",
-  "search*%E9%92%93%E9%B1%BC%E5%B2%9B",
-  "%E5%8A%A8%E6%80%81%E7%BD%91",
-  "search*%E5%A4%9A%E7%B6%AD",
-  "search*%E5%A4%9A%E7%BB%B4",
-  "search*freegate",
-  "search*%E6%B3%95%E4%BC%9A",
-  "%E6%B3%95%E8%BD%AE%E5%A4%A7%E6%B3%95",
-  "%E6%B3%95%E8%BC%AA%E5%8A%9F",
-  "%E6%B3%95%E8%BD%AE%E5%8A%9F",
-  "%E8%83%A1%E6%B5%B7%E5%B3%B0",
-  "%E8%83%A1%E6%B5%B7%E6%B8%85",
-  "search*%E8%8A%B1%E8%8A%B1%E5%85%AC%E5%AD%90",
-  "search*%BC%CD%D4%AA",
-  "search*%BC%D3%C3%DC%B4%FA%C0%ED",
-  "search*%E5%8A%A0%E5%AF%86%E4%BB%A3%E7%90%86",
-  "search*%E6%B1%9F%E6%B5%81%E6%B0%93",
-  "search*%E7%9C%8B%E4%B8%AD%E5%9B%BD",
-  "search*%E5%85%AD%E5%9B%9B",
-  "%E5%88%98%E6%99%93%E6%B3%A2",
-  "%E7%BE%8E%E5%9B%BD%E4%B9%8B%E9%9F%B3",
-  "%E6%B0%91%E8%BF%9B%E5%85%9A",
-  "%E6%B0%91%E8%BF%90",
-  "search*%E8%89%B2%E6%83%85",
-  "%E7%8E%8B%E4%B8%B9",
-  "search*%E7%BD%91%E7%89%B9",
-  "search*%E7%8E%8B%E5%B8%8C%E5%93%B2",
-  "search*%E9%AD%8F%E4%BA%AC%E7%94%9F",
-  "search*%E6%96%87%E5%AD%97%E7%8B%B1",
-  "search*%E6%88%91%E7%9A%84%E5%A5%8B%E6%96%97",
-  "search*%E6%97%A0%E7%95%8C",
-  "search*%E9%82%AA%E6%81%B6",
-  "search*%E6%96%B0%E5%94%90%E4%BA%BA",
-  "search*%E6%96%B0%E8%AF%AD%E4%B8%9D",
-  "search*%E5%AD%A6%E8%BF%90",
-  "search*%E4%B8%AD%E5%8A%9F",
-  "search*%E4%B8%AD%E5%9B%BD%E8%AE%BA%E5%9D%9B",
-  "search*%E4%B8%AD%E5%AE%A3%E9%83%A8",
+  "%E7%BD%A2%E8%AF%BE",/*罢课*/
+  "search*%E5%8D%9A%E8%AE%AF",/*博讯*/
+  "search*%E5%A4%A7%E7%BA%AA%E5%85%83",/*大纪元*/
+  "search*%E9%92%93%E9%B1%BC%E5%B2%9B",/*钓鱼岛*/
+  "%E5%8A%A8%E6%80%81%E7%BD%91",/*动态网*/
+  "search*%E5%A4%9A%E7%B6%AD",/*多維*/
+  "search*%E5%A4%9A%E7%BB%B4",/*多维*/
+  "search*freegate",/*freegate 自由门*/
+  "search*%E6%B3%95%E4%BC%9A",/*法会*/
+  "%E6%B3%95%E8%BD%AE%E5%A4%A7%E6%B3%95",/*法轮大法*/
+  "%E6%B3%95%E8%BC%AA%E5%8A%9F",/*法輪功*/
+  "%E6%B3%95%E8%BD%AE%E5%8A%9F",/*法轮功*/
+  "%E8%83%A1%E6%B5%B7%E5%B3%B0",/*胡海峰*/
+  "%E8%83%A1%E6%B5%B7%E6%B8%85",/*胡海清*/
+  "search*%E8%8A%B1%E8%8A%B1%E5%85%AC%E5%AD%90",/*花花公子*/
+  "search*%E5%8A%A0%E5%AF%86%E4%BB%A3%E7%90%86",/*加密代理*/
+  "search*%E7%9C%8B%E4%B8%AD%E5%9B%BD",/*看中国*/
+  "search*%E5%85%AD%E5%9B%9B",/*六四*/
+  "%E5%88%98%E6%99%93%E6%B3%A2",/*刘晓波*/
+  "%E7%BE%8E%E5%9B%BD%E4%B9%8B%E9%9F%B3",/*美国之音*/
+  "%E6%B0%91%E8%BF%9B%E5%85%9A",/*民进党*/
+  "%E6%B0%91%E8%BF%90",/*民运*/
+  "search*%E8%89%B2%E6%83%85",/*色情*/
+  "%E7%8E%8B%E4%B8%B9",/*王丹*/
+  "search*%E7%BD%91%E7%89%B9",/*网特*/
+  "search*%E7%8E%8B%E5%B8%8C%E5%93%B2",/*王希哲*/
+  "search*%E9%AD%8F%E4%BA%AC%E7%94%9F",/*魏京生*/
+  "search*%E6%96%87%E5%AD%97%E7%8B%B1",/*文字狱*/
+  "search*%E6%88%91%E7%9A%84%E5%A5%8B%E6%96%97",/*我的奋斗*/
+  "search*%E6%97%A0%E7%95%8C",/*无界*/
+  "search*%E9%82%AA%E6%81%B6",/*邪恶*/
+  "search*%E6%96%B0%E5%94%90%E4%BA%BA",/*新唐人*/
+  "search*%E6%96%B0%E8%AF%AD%E4%B8%9D",/*新语丝*/
+  "search*%E5%AD%A6%E8%BF%90",/*学运*/
+  "search*%E4%B8%AD%E5%8A%9F",/*中功*/
+  "search*%E4%B8%AD%E5%9B%BD%E8%AE%BA%E5%9D%9B",/*中国论坛*/
+  "search*%E4%B8%AD%E5%AE%A3%E9%83%A8",/*中宣部*/
   "|https:\/\/upload.wikimedia.org",
   "zh.wikipedia.org",
   "|https:\/\/zh.wikipedia.org",
   "zh.m.wikipedia.org",
   "|https:\/\/zh.m.wikipedia.org",
-  "zh.wikibooks.org*%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5",
+  "zh.wikibooks.org*%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5",/*突破网络审查*/
   ".gov.tw",
   "@@||music.jwmusic.org",
   "@@||tax.nat.gov.tw",
