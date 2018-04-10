@@ -105,6 +105,7 @@ var rules = [
   "downloads.atlassian.com",
   "||goagentx.com",
   ".lsxszzg.com",
+  "||pixiv.net",
   "garr.dl.sourceforge.net",
   "||repo1.maven.org",
   "||maven.ibiblio.org",
