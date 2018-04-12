@@ -54,13 +54,17 @@ var rules = [
   "||groups.google.cn",
   "||gvt0.com",
   "||gvt1.com",
+  "||blogspot.tw",
+  "||blogspot.com",
+
   /* telegram domains */
   "||t.me",
   "||telegram.org",
   "||telegram.dog",
   "||tdesktop.com",
   "||telesco.pe",
-  "||telegram.me",
+  "||telegram.me",/*"||telegra.ph", 未被墙*/
+
   /* git and github */
   "||git-scm.com",
   "|http:\/\/softwaredownload.gitbooks.io\/",
@@ -68,6 +72,7 @@ var rules = [
   "||github.com",
   "|http:\/\/cthlo.github.io\/hktv",
   "|http:\/\/wsgzao.github.io\/post\/gfw-break",
+
   /* Facebook, Instagram, Twitter, Tumblr, Snapchat */
   "||fb.com",
   "fb.me",
@@ -82,10 +87,12 @@ var rules = [
   "||blog.instagram.com",
   "||tumblr.com",
   "||snapchat.com",
+
   /* Shorter URL website */
   ".bit.ly",
   "|http:\/\/bit.ly",
   "||0rz.tw",
+
   /* Other common active domains */
   "||shadowsocks.org",
   "||disqus.com",
@@ -99,6 +106,9 @@ var rules = [
   "||dropboxusercontent.com",
   "||netflix.com",
   "||gumroad.com",
+  "||soundcloud.com",
+  "||exit.sc",/*SoundCloud short Url*/
+  "stackoverflow.com",
   "||flickr.com",
   "||staticflickr.com",
   "flickrhivemind.net",
@@ -106,6 +116,8 @@ var rules = [
   "||goagentx.com",
   ".lsxszzg.com",
   "||pixiv.net",
+  "||w3schools.com",
+
   "garr.dl.sourceforge.net",
   "||repo1.maven.org",
   "||maven.ibiblio.org",
@@ -113,7 +125,6 @@ var rules = [
   ".avyahoo.com",
   "||ssfast.hk",
   "bandwagonhost.com",
-  "stackoverflow.com",
   "||mixpanel.com",
   "medium.com",
   "codecademy.com",
@@ -2700,7 +2711,6 @@ var rules = [
   ".sopcast.com",
   ".sopcast.org",
   "|http:\/\/bbs.soul-plus.net",
-  "||soundcloud.com",
   ".soundofhope.kr",
   "soundofhope.org",
   "||soundofhope.org",
@@ -3370,6 +3380,7 @@ var rules = [
   ".vjmedia.com.hk",
   ".vllcs.org",
   "||vmixcore.com",
+  "||vmpsoft.com",
   "cn.voa.mobi",
   "tw.voa.mobi",
   ".voachineseblog.com",
