@@ -117,6 +117,9 @@ var rules = [
   ".lsxszzg.com",
   "||pixiv.net",
   "||w3schools.com",
+  "||joinmastodon.org",/*github.com/tootsuite/mastodon*/
+  "||now.com",
+  "||itunes.apple.com/^[^cn]+$",/*apple blocked chinese ip*/
 
   "garr.dl.sourceforge.net",
   "||repo1.maven.org",
