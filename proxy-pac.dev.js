@@ -88,6 +88,11 @@ var rules = [
   "||tumblr.com",
   "||snapchat.com",
 
+  /* Steam Domains */
+  "||steamcommunity.com",
+  "||steampowered.com",
+  "||steamstatic.com",
+
   /* Shorter URL website */
   ".bit.ly",
   "|http:\/\/bit.ly",
