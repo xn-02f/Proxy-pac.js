@@ -54,6 +54,8 @@ var rules = [
   "||groups.google.cn",
   "||gvt0.com",
   "||gvt1.com",
+  "||gvt2.com",
+  "||gvt3.com",
   "||blogspot.tw",
   "||blogspot.com",
 
