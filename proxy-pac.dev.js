@@ -123,6 +123,7 @@ var rules = [
   "||pixiv.net",
   "||w3schools.com",
   "||joinmastodon.org",/*github.com/tootsuite/mastodon*/
+  "||ipfs.io",/*github.com/ipfs/ipfs*/
   "||now.com",
   "||itunes.apple.com/^[^cn]+$",/*apple blocked chinese ip*/
 
