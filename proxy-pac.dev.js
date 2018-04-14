@@ -3770,8 +3770,6 @@ var rules = [
   "q%3Dfreedom",
   "remembering_tiananmen_20_years",
   "search*safeweb",
-  "q=triangle",
-  "q%3DTriangle",
   "ultrareach",
   "ultrasurf",
   "zhengjian",
