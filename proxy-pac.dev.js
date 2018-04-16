@@ -9,9 +9,8 @@ var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
   /* Google */
-  "||google",
+  "||.google",
   "\/^https?:\\\/\\\/[^\\\/]+google\\.(.*)\/",
-  "||googleblog.com",
   "||g.co",
   "||goo.gl",
   "||gmail.com",
@@ -29,6 +28,8 @@ var rules = [
   "@@|http:\/\/www.google.cn\/maps",
   "||abc.xyz",
   "||agoogleaday.com",
+  "||chrome.com",
+  "||chromium.org",
   "||chromeexperiments.com",
   "||chromercise.com",
   "||data-vocabulary.org",
@@ -56,6 +57,7 @@ var rules = [
   "||gvt1.com",
   "||gvt2.com",
   "||gvt3.com",
+  "||googleblog.com",
   "||blogspot.tw",
   "||blogspot.com",
 
@@ -730,9 +732,7 @@ var rules = [
   "||christianstudy.com",
   "christusrex.org\/www1\/sdc",
   "||chrlcg-hk.org",
-  "||chrome.com",
   "||chromeadblock.com",
-  "||chromium.org",
   "chubun.com",
   "chuizi.net",
   "||christiantimes.org.hk",
