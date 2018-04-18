@@ -98,7 +98,7 @@ var rules = [
   "||steamstatic.com",
 
   /* Shorter URL website */
-  ".bit.ly",
+  "||bit.ly",
   "|http:\/\/bit.ly",
   "||0rz.tw",
 
