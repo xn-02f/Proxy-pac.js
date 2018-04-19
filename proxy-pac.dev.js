@@ -99,7 +99,6 @@ var rules = [
 
   /* Shorter URL website */
   "||bit.ly",
-  "|http:\/\/bit.ly",
   "||0rz.tw",
 
   /* Other common active domains */
