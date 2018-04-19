@@ -3,3 +3,6 @@ node_modules/
 
 # npm
 package-lock.json
+
+# Mac
+.DS_Store
