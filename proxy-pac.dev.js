@@ -79,6 +79,7 @@ var rules = [
 
   /* Facebook, Instagram, Twitter, Tumblr, Snapchat */
   "||fb.com",
+  "||f8.com",
   "fb.me",
   "||fb.me",
   ".facebook.com",
