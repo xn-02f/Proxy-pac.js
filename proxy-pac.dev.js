@@ -170,7 +170,7 @@ var rules = [
   "||flipboard.com",
   "||fxnetworks.com",
   "||getuploader.com",
-  "hulu.com",
+  "||hulu.com",
   "huluim.com",
   "||hybrid-analysis.com",
   "|http:\/\/www.ilovelongtoes.com\/",
