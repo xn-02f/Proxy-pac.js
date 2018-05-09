@@ -11,9 +11,9 @@
 This is a file that set proxy auto-config(PAC) file.<br>
 <br>
 **Try**:
-- Install：<br>
+- Install:<br>
   `$ npm install proxy-pac.js`
-- Update：<br>
+- Update:<br>
   `$ npm update proxy-pac.js`
 
 **Note**: This project is developing. <br>
