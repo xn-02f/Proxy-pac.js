@@ -60,6 +60,7 @@ var rules = [
   "||googleblog.com",
   "||blogspot.tw",
   "||blogspot.com",
+  "||tensorflow.org",
 
   /* telegram domains */
   "||t.me",
