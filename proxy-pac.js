@@ -70,7 +70,7 @@ var rules = [
   "||telegram.me",/*"||telegra.ph", 未被墙*/
 
   /* git and github */
-  "||git-scm.com",/*是可以访问，但是国内速度太慢*/
+  "||git-scm.com",
   "|http:\/\/softwaredownload.gitbooks.io\/",
   "|https:\/\/gist.github.com",
   "||github.com",
