@@ -1,6 +1,6 @@
 {
   "name": "proxy-pac.js",
-  "version": "0.1.15",
+  "version": "0.2.0",
   "description": "Proxy auto-config (PAC) file in JavaScript.",
   "homepage": "http://pac.huiyifyj.cn",
   "main": "./dist/proxy-pac.js",
