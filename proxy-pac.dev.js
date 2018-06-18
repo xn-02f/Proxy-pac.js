@@ -32,6 +32,7 @@ var rules = [
   "||chromium.org",
   "||chromeexperiments.com",
   "||chromercise.com",
+  "||chromestatus.com",
   "||data-vocabulary.org",
   "||ggpht.com",
   "||gmodules.com",
