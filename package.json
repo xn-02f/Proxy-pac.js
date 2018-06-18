@@ -18,11 +18,13 @@
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
   },
   "scripts": {
-    "test": "gulp test & cd test & node test"
+    "test": "gulp test & cd test & node test",
+    "dev": "gulp dev"
   },
   "keywords": [
     "Proxy-pac.js",
     "proxy-pac",
+    "pac-list",
     "proxy",
     "gwf",
     "network",
