@@ -3,7 +3,9 @@ node_modules/
 
 # npm
 package-lock.json
-.npmignore
 
 # Mac
 .DS_Store
+
+# test cache
+test/proxy-pac.test.js
