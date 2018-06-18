@@ -3,7 +3,7 @@
   "version": "0.1.15",
   "description": "Proxy auto-config (PAC) file in JavaScript.",
   "homepage": "http://pac.huiyifyj.cn",
-  "main": "test.js",
+  "main": "./dist/proxy-pac.js",
   "license": "GPL-3.0",
   "author": {
     "name": "Huiyi.FYJ",
@@ -18,8 +18,7 @@
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
   },
   "scripts": {
-    "test": "node test.js",
-    "min": "uglifyjs proxy-pac.js -m -o proxy-pac.min.js"
+    "test": "gulp test & cd test & node test"
   },
   "keywords": [
     "Proxy-pac.js",
@@ -29,7 +28,10 @@
     "network",
     "js"
   ],
-  "dependencies": {
-    "uglify-js": "^3.3.16"
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
