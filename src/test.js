@@ -1,2 +1,2 @@
-// expose to rules array
+// Expose to Array 'rules'
 module.exports = rules;
