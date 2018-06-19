@@ -2,6 +2,21 @@ const gulp = require('gulp');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const rename = require('gulp-rename');
+const header = require('gulp-header');
+
+const pkg = require('./package.json');
+
+// Header Copyright Content
+const banner = [
+    '/*',
+    ' * ' + pkg.name + ' - ' + pkg.description,
+    ' * @author '+ pkg.author.name,
+    ' * @version v' + pkg.version,
+    ' * @github ' + pkg.homepage,
+    ' * @license ' + pkg.license,
+    ' */',
+    ''
+].join('\n');
 
 // Travis Test
 gulp.task('test', function () {
@@ -21,6 +36,7 @@ gulp.task('main', function () {
 gulp.task('min', function () {
     gulp.src('./dist/proxy-pac.js')
         .pipe(uglify())
+        .pipe(header(banner))
         .pipe(rename({
             basename: 'proxy-pac',
             suffix: '.min'
