@@ -6,6 +6,7 @@ package-lock.json
 
 # Mac
 .DS_Store
+*/.DS_Store
 
 # test cache
 test/proxy-pac.test.js
