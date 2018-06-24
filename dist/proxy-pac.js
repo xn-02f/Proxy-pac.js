@@ -93,7 +93,7 @@ var rules = [
     "|http:\/\/cthlo.github.io\/hktv",
     "|http:\/\/wsgzao.github.io\/post\/gfw-break",
   
-    /* Facebook, Instagram, Twitter, Tumblr, Snapchat */
+    /* Facebook, Instagram, Twitter, Snapchat */
     "||fb.com",
     "||f8.com",
     "||fb.me",
@@ -114,8 +114,12 @@ var rules = [
     "||twttr.com",
     "||twimg.com",
     "\/^https?:\\\/\\\/[^\\\/]+twitter\\.com\/",
-    "||tumblr.com",
     "||snapchat.com",
+
+    /* Tumblr and its CNAME blogs */
+    "||tumblr.com",
+    "||tumblr.awflasher.com",
+    "kushagragour.in",
   
     /* Steam Domains */
     "||steamcommunity.com",
@@ -735,7 +739,6 @@ var rules = [
     "||chinatimes.com",
     "chinatweeps.com",
     "chinaway.org",
-    ".chinaworker.info",
     "||chinaworker.info",
     "chinayouth.org.hk",
     "chinayuanmin.org",
@@ -743,7 +746,6 @@ var rules = [
     ".chinese-hermit.net",
     "chinese-memorial.org",
     "||chinesedailynews.com",
-    ".chinesen.de",
     "||chinesen.de",
     ".chinesepen.org",
     ".chinesetalks.net\/ch",
@@ -753,7 +755,6 @@ var rules = [
     "chn.chosun.com",
     ".chrdnet.com",
     "|http:\/\/chrdnet.com",
-    "christianstudy.com",
     "||christianstudy.com",
     "christusrex.org\/www1\/sdc",
     "||chrlcg-hk.org",
@@ -3085,7 +3086,6 @@ var rules = [
     "||all-that-is-interesting.com",
     "||art-or-porn.com",
     "||news.atebits.com",
-    "||tumblr.awflasher.com",
     "||badassjs.com",
     "||basetimesheightdividedby2.com",
     "||benjaminste.in",

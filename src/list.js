@@ -93,7 +93,7 @@ var rules = [
     "|http:\/\/cthlo.github.io\/hktv",
     "|http:\/\/wsgzao.github.io\/post\/gfw-break",
   
-    /* Facebook, Instagram, Twitter, Tumblr, Snapchat */
+    /* Facebook, Instagram, Twitter, Snapchat */
     "||fb.com",
     "||f8.com",
     "||fb.me",
@@ -114,8 +114,12 @@ var rules = [
     "||twttr.com",
     "||twimg.com",
     "\/^https?:\\\/\\\/[^\\\/]+twitter\\.com\/",
-    "||tumblr.com",
     "||snapchat.com",
+
+    /* Tumblr and its CNAME blogs */
+    "||tumblr.com",
+    "||tumblr.awflasher.com",
+    "kushagragour.in",
   
     /* Steam Domains */
     "||steamcommunity.com",
@@ -3082,7 +3086,6 @@ var rules = [
     "||all-that-is-interesting.com",
     "||art-or-porn.com",
     "||news.atebits.com",
-    "||tumblr.awflasher.com",
     "||badassjs.com",
     "||basetimesheightdividedby2.com",
     "||benjaminste.in",
