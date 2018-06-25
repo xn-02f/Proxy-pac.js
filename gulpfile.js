@@ -20,7 +20,7 @@ const banner = [
 
 // Travis Test
 gulp.task('test', function () {
-    gulp.src(['./src/list.js', './src/test.js', './src/pac-main.js'])
+    gulp.src(['./src/list.js', './src/for-test.js', './src/pac-main.js'])
         .pipe(concat('proxy-pac.test.js'))
         .pipe(gulp.dest('./test/'));
 });
