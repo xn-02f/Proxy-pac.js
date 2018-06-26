@@ -6,7 +6,7 @@ const header = require('gulp-header');
 
 const pkg = require('./package.json');
 
-// Header Copyright Content
+// Header Copyright Content For Minify File
 const banner = [
     '/*',
     ' * ' + pkg.name + ' - ' + pkg.description,

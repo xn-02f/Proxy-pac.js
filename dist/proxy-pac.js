@@ -32,8 +32,6 @@ var rules = [
     "||you.tube",
     "||youtube.com",
     "||youtube-nocookie.com",
-    "||firebase.com",
-    "||golang.org",
     "||gstatic.com",
     "@@||fonts.googleapis.com",
     "@@||csi.gstatic.com",
@@ -76,6 +74,8 @@ var rules = [
     "||blogspot.tw",
     "||blogspot.com",
     "||tensorflow.org",
+    "||firebase.com",
+    "||golang.org",
   
     /* telegram domains */
     "||t.me",
