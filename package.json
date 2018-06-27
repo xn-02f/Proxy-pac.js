@@ -15,7 +15,8 @@
     "url": "git+https://github.com/huiyifyj/Proxy-pac.js.git"
   },
   "bugs": {
-    "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
+    "url": "https://github.com/huiyifyj/Proxy-pac.js/issues",
+    "email": "jxfengyijie@gmail.com"
   },
   "scripts": {
     "test": "gulp test && cd test && node test",
