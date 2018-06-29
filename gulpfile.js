@@ -10,9 +10,8 @@ const pkg = require('./package.json');
 const banner = [
     '/*',
     ' * ' + pkg.name + ' - ' + pkg.description,
-    ' * @author '+ pkg.author.name,
+    ' * @author ' + pkg.author.name + ' ' + pkg.author.email,
     ' * @version v' + pkg.version,
-    ' * @github ' + pkg.homepage,
     ' * @license ' + pkg.license,
     ' */',
     ''
