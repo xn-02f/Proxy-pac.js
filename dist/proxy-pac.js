@@ -160,7 +160,9 @@ var rules = [
     "||ipfs.io",/*github.com/ipfs/ipfs*/
     "||now.com",
     "||itunes.apple.com/^[^cn]+$",/*apple blocked chinese ip*/
+    "||hbo.com",
   
+    "||cloudup.com",
     "garr.dl.sourceforge.net",
     "||repo1.maven.org",
     "||maven.ibiblio.org",
