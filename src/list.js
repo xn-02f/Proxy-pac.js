@@ -92,6 +92,7 @@ var rules = [
     "||github.com",
     "|http:\/\/cthlo.github.io\/hktv",
     "|http:\/\/wsgzao.github.io\/post\/gfw-break",
+    "||rawgit.com",/* raw files directly Github */
   
     /* Facebook, Instagram, Twitter, Snapchat */
     "||fb.com",
