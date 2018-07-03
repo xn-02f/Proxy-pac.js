@@ -76,6 +76,7 @@ var rules = [
     "||tensorflow.org",
     "||firebase.com",
     "||golang.org",
+    "||webcomponents.org",
 
     /* telegram domains */
     "||t.me",
