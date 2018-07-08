@@ -45,19 +45,3 @@ gulp.task('min', function () {
 
 // Default task
 gulp.task('default', ['main', 'min']);
-
-// Dev
-gulp.task('devFile', function () {
-    gulp.src(['./src/list.js', './src/pac-main.js'])
-        .pipe(concat('proxy-pac.js'))
-        .pipe(rename({
-            basename: 'proxy-pac',
-            suffix: '.dev'
-        }))
-        .pipe(gulp.dest('./dist/'));
-});
-
-// Dev Watch
-gulp.task('dev', function () {
-    gulp.watch('./src/*.js', ['devFile']);
-});
