@@ -19,7 +19,8 @@
     "email": "jxfengyijie@gmail.com"
   },
   "scripts": {
-    "test": "gulp test && cd test && node test"
+    "test": "gulp test && cd test && node test",
+    "dist": "gulp"
   },
   "keywords": [
     "Proxy-pac.js",

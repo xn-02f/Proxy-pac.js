@@ -5,14 +5,11 @@ node_js:
   - "8"
   - "6"
 
-before_install:
-  - npm install -g gulp
-
 install: npm install
 
 script:
-  - npm test
-  - gulp
+  - npm run test
+  - npm run dist
 
 cache:
   directories:
