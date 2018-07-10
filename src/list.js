@@ -75,6 +75,7 @@ var rules = [
     "||blogspot.com",
     "||tensorflow.org",
     "||firebase.com",
+    "||firebaseio.com",/* Firebase Realtime Database 在控制台显示的时候,创建时也会请求 */
     "||golang.org",
     "||webcomponents.org",
 
