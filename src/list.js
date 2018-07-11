@@ -142,6 +142,7 @@ var rules = [
     "ift.tt",
     "||spotify.com",
     "||pandora.com",
+    "||pinterest.com",
     "||dropbox.com",
     "||dropboxapi.com",
     "||dropboxusercontent.com",
