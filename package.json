@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "gulp test && cd test && node test",
-    "dist": "gulp"
+    "dist": "gulp && gulp"
   },
   "keywords": [
     "Proxy-pac.js",
