@@ -137,6 +137,7 @@ var rules = [
     "||shadowsocks.org",
     "||disqus.com",
     "||disq.us",
+    "||disquscdn.com",
     "||getpocket.com",
     "||vevo.com",
     "ift.tt",
