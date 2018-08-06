@@ -4,7 +4,7 @@
  * Copyright (C) 2018 Huiyi.FYJ <jxfengyijie@gmail.com> huiyifyj.cn
  *
  * https://github.com/huiyifyj/Proxy-pac.js
- * 
+ *
  * Proxy-pac.js: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -75,8 +75,10 @@ var rules = [
     "||blogspot.com",
     "||tensorflow.org",
     "||firebase.com",
+    "||firebaseio.com",/* Firebase Realtime Database 在控制台显示的时候,创建时也会请求 */
     "||golang.org",
-  
+    "||webcomponents.org",
+
     /* telegram domains */
     "||t.me",
     "||telegram.org",
@@ -84,7 +86,7 @@ var rules = [
     "||tdesktop.com",
     "||telesco.pe",
     "||telegram.me",/*"||telegra.ph", 未被墙*/
-  
+
     /* git and github */
     "||git-scm.com",
     "|http:\/\/softwaredownload.gitbooks.io\/",
@@ -93,7 +95,7 @@ var rules = [
     "|http:\/\/cthlo.github.io\/hktv",
     "|http:\/\/wsgzao.github.io\/post\/gfw-break",
     "||rawgit.com",/* raw files directly Github */
-  
+
     /* Facebook, Instagram, Twitter, Snapchat */
     "||fb.com",
     "||f8.com",
@@ -121,25 +123,27 @@ var rules = [
     "||tumblr.com",
     "||tumblr.awflasher.com",
     "kushagragour.in",
-  
+
     /* Steam Domains */
     "||steamcommunity.com",
     "||steampowered.com",
     "||steamstatic.com",
-  
+
     /* Shorter URL website */
     "||bit.ly",
     "||0rz.tw",
-  
+
     /* Other common active domains */
     "||shadowsocks.org",
     "||disqus.com",
     "||disq.us",
+    "||disquscdn.com",
     "||getpocket.com",
     "||vevo.com",
     "ift.tt",
     "||spotify.com",
     "||pandora.com",
+    "||pinterest.com",
     "||dropbox.com",
     "||dropboxapi.com",
     "||dropboxusercontent.com",
@@ -161,7 +165,7 @@ var rules = [
     "||now.com",
     "||itunes.apple.com/^[^cn]+$",/*apple blocked chinese ip*/
     "||hbo.com",
-  
+
     "||cloudup.com",
     "garr.dl.sourceforge.net",
     "||repo1.maven.org",
