@@ -22,14 +22,7 @@ These files can be used currently as pac file for you proxy (eg. shadowsocks) on
 
 > LICENSE: [GPL-3.0](https://github.com/huiyifyj/Proxy-pac.js/blob/master/LICENSE)
 
-<br>
-<br>
-Feedback
-<a href="https://github.com/huiyifyj/Proxy-pac.js/issues">
-    <img src="https://huiyifyj.github.io/Proxy-pac.js/images/icons/feedback.svg" alt="Feedback" width="16"/>
-</a>
-<br>
-<br>
+<br><br>
 <div align=center>
     &copy; 2018 &nbsp; | &nbsp; <a href="https://huiyifyj.github.io">Huiyi.FYJ</a>
 </div>
