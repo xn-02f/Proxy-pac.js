@@ -1,6 +1,11 @@
 # GitLab CI configuration
 image: node:latest
 
+# Cache folder setting
+cache:
+  paths:
+    - node_modules/
+
 stages:
   - test
   - build
