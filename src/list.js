@@ -3440,6 +3440,7 @@ var rules = [
     "||vpngate.jp",
     ".vpngate.net",
     "||vpngate.net",
+    "||vpnhub.com",
     "||vpnpop.com",
     "||vpnpronet.com",
     "||vpnreviewz.com",
