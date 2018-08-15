@@ -380,7 +380,6 @@ var domains = {
   "plm.org.hk": 1,
   "gaybubble.com": 1,
   "falsefire.com": 1,
-  "v2ex.com": 1,
   "otzo.com": 1,
   "traffichaus.com": 1,
   "codeskulptor.org": 1,

@@ -77,7 +77,7 @@ var rules = [
     "||firebase.com",
     "||firebaseio.com",/* Firebase Realtime Database 在控制台显示的时候,创建时也会请求 */
     "||golang.org",
-    "||webcomponents.org",
+    /*"||webcomponents.org", 没有被墙*/
 
     /* telegram domains */
     "||t.me",
