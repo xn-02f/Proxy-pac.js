@@ -27,10 +27,14 @@
     "proxy-pac",
     "pac-list",
     "proxy",
-    "gwf",
+    "gfw",
+    "gfwlist",
     "network",
     "js"
   ],
+  "dependencies": {
+    "js-base64": "^2.4.8"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
