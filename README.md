@@ -9,13 +9,10 @@
 </div>
 <br>
 
-This is a file that set proxy auto-config(PAC) file.<br>
+This is a file that set proxy auto-config(PAC).<br>
 <br>
-**Try**:
-- Install:<br>
+**Try**:<br>
   `$ npm install proxy-pac.js`
-- Update:<br>
-  `$ npm update proxy-pac.js`
 
 **Note**: This project is developing. <br>
 These files can be used currently as pac file for you proxy (eg. shadowsocks) on linux, Mac, even Windows.
