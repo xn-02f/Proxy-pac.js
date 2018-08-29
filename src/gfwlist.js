@@ -1,3 +1,17 @@
+/*
+ * This file is part of Proxy-pac.js
+ * https://github.com/huiyifyj/Proxy-pac.js
+ *
+ * This fille is generated inspired by gfwlist/gfwlist.
+ *
+ * GFWList is unlikely to fully comprise the real
+ * rules being deployed inside GFW system. We try
+ * our best to keep the list up to date. Please
+ * contact us regarding URL submission / removal,
+ * or suggestion / enhancement at issue tracker:
+ * https://github.com/gfwlist/gfwlist/issues/.
+ */
+
 var rules = [
     "|http://85.17.73.31/",
     "||agnesb.fr",
