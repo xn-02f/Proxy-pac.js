@@ -1,7 +1,7 @@
 {
   "name": "proxy-pac.js",
   "version": "0.2.13",
-  "description": "Proxy auto-config (PAC) file in JavaScript.",
+  "description": "This is a file that set proxy auto-config(PAC) in JavaScript.",
   "homepage": "https://github.com/huiyifyj/Proxy-pac.js",
   "main": "./dist/proxy-pac.js",
   "license": "GPL-3.0",

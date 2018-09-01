@@ -7,31 +7,29 @@ const header = require('gulp-header');
 const pkg = require('./package.json');
 
 // Header Copyright Content For Minify File
-const banner = [
-    '/*',
-    ' * ' + pkg.name + ' - ' + pkg.description,
-    ' * @author ' + pkg.author.name + ' ' + pkg.author.email,
-    ' * @version v' + pkg.version,
-    ' * @license ' + pkg.license,
-    ' */',
-    ''
-].join('\n');
+const banner = `/*
+ * ${pkg.name} - ${pkg.description}
+ * @author ${pkg.author.name}
+ * @version ${pkg.version}
+ * @license ${pkg.license}
+ */
+`;
 
-// Travis Test
+// Compound cache test file for Travis test
 gulp.task('test', function () {
     gulp.src(['./src/list.js', './src/for-test.js', './src/pac-main.js'])
         .pipe(concat('proxy-pac.test.js'))
         .pipe(gulp.dest('./test/'));
 });
 
-// Compound proxy-pac.js File
+// Compound proxy-pac.js file
 gulp.task('main', function () {
     gulp.src(['./src/list.js', './src/pac-main.js'])
         .pipe(concat('proxy-pac.js'))
         .pipe(gulp.dest('./dist/'));
 });
 
-// Minify File & Generate proxy-pac.min.js
+// Minify file & Generate proxy-pac.min.js
 gulp.task('min', function () {
     gulp.src('./dist/proxy-pac.js')
         .pipe(uglify())
