@@ -33,7 +33,7 @@
     "js"
   ],
   "dependencies": {
-    "js-base64": "^2.4.8"
+    "js-base64": "^2.4.9"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
