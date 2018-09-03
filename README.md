@@ -1,4 +1,4 @@
-<img src='https://huiyifyj.github.io/Proxy-pac.js/images/icons/paper_plane.svg' width='80' align="right" />
+<img src='https://huiyifyj.github.io/Proxy-pac.js/images/icons/paper_plane.svg' width='120' align="right" />
 
 ## Proxy-pac.js
 [![Travis](https://img.shields.io/travis/huiyifyj/Proxy-pac.js.svg?style=flat-square&logo=travis)](https://travis-ci.org/huiyifyj/Proxy-pac.js)
@@ -7,10 +7,9 @@
 > This is a file that set proxy auto-config(PAC).
 
 **Try** :
-```
+```bash
 $ npm install proxy-pac.js
 ```
-**Note**: This project is developing.
 
 These files can be used currently as pac file for you proxy (eg. shadowsocks) on linux, Mac, even Windows.
 
