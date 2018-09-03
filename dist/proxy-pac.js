@@ -77,7 +77,7 @@ var rules = [
     "||firebase.com",
     "||firebaseio.com",/* Firebase Realtime Database 在控制台显示的时候,创建时也会请求 */
     "||golang.org",
-    "||webcomponents.org",
+    /*"||webcomponents.org", 没有被墙*/
 
     /* telegram domains */
     "||t.me",
@@ -2883,6 +2883,7 @@ var rules = [
     "||techlifeweb.com",
     "||techparaiso.com",
     "||teck.in",
+    "||teddysun.com",
     "teensinasia.com",
     ".telecomspace.com",
     "||telegraph.co.uk",
@@ -3440,6 +3441,7 @@ var rules = [
     "||vpngate.jp",
     ".vpngate.net",
     "||vpngate.net",
+    "||vpnhub.com",
     "||vpnpop.com",
     "||vpnpronet.com",
     "||vpnreviewz.com",
