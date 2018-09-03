@@ -2883,6 +2883,7 @@ var rules = [
     "||techlifeweb.com",
     "||techparaiso.com",
     "||teck.in",
+    "||teddysun.com",
     "teensinasia.com",
     ".telecomspace.com",
     "||telegraph.co.uk",
