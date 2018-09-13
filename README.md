@@ -7,9 +7,12 @@
 > This is a file that set proxy auto-config(PAC).
 
 **Try** :
+- Via npm:
 ```bash
 $ npm install proxy-pac.js
 ```
+- Import CDN:
+`https://unpkg.com/proxy-pac.js/dist/proxy-pac.min.js` in your proxy setting.
 
 These files can be used currently as pac file for you proxy (eg. shadowsocks) on linux, Mac, even Windows.
 
