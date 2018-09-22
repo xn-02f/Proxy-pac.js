@@ -12,7 +12,7 @@
 $ npm install proxy-pac.js
 ```
 - Import CDN:<br>
-`https://unpkg.com/proxy-pac.js/dist/proxy-pac.min.js` in your system proxy setting.
+Type `https://unpkg.com/proxy-pac.js/dist/proxy-pac.min.js` (or other CDN url) in your system proxy setting.
 
 These files can be used currently as pac file for your proxy (eg. shadowsocks) on linux, Mac, even Windows.
 
