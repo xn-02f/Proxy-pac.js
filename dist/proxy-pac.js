@@ -91,7 +91,7 @@ var rules = [
     "||git-scm.com",
     "|http:\/\/softwaredownload.gitbooks.io\/",
     "|https:\/\/gist.github.com",
-    "||github.com",
+    /* "||github.com", 未被墙*/
     "|http:\/\/cthlo.github.io\/hktv",
     "|http:\/\/wsgzao.github.io\/post\/gfw-break",
     "||rawgit.com",/* raw files directly Github */
