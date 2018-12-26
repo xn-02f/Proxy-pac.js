@@ -3,14 +3,12 @@ language: node_js
 node_js:
   - node
 
-before_install: npm i npm-check -g
-
 install: npm i
 
 script:
   - npm run test
   - npm run dist
-  - npm-check
+  - npm outdated
 
 cache:
   directories:
