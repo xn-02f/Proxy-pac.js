@@ -33,12 +33,12 @@
     "js"
   ],
   "dependencies": {
-    "js-base64": "^2.4.9"
+    "js-base64": "^2.5.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-header": "^2.0.5",
+    "gulp-header": "^2.0.7",
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.1"
   }
