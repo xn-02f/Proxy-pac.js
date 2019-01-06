@@ -8,7 +8,6 @@ install: npm i
 script:
   - npm run test
   - npm run dist
-  - npm outdated
 
 cache:
   directories:
