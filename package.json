@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "scripts": {
     "test": "gulp test && cd test && node test",
-    "dist": "gulp"
+    "dist": "gulp main && gulp min"
   },
   "homepage": "https://github.com/huiyifyj/Proxy-pac.js",
   "author": {
@@ -34,6 +34,7 @@
     "js-base64": "^2.5.1"
   },
   "devDependencies": {
+    "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-header": "^2.0.7",

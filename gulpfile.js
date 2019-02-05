@@ -3,6 +3,7 @@ const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const rename = require('gulp-rename');
 const header = require('gulp-header');
+const del = require('del');
 
 const pkg = require('./package.json');
 
@@ -14,6 +15,13 @@ const banner = `/*
  * @license ${pkg.license}
  */
 `;
+
+// Clean build and cache files
+gulp.task('clean', function (done) {
+    del('dist');
+    done();
+});
+gulp.task('clean').description = 'Clean build and cache files';
 
 // Compound cache test file for Travis test
 gulp.task('test', function (done) {
@@ -48,4 +56,4 @@ gulp.task('min', function (done) {
 gulp.task('min').description = 'Minify file & Generate proxy-pac.min.js';
 
 // Default task
-gulp.task('default', gulp.series('main', gulp.parallel('min')));
+// gulp.task('default', gulp.series('main', gulp.series('min')));
