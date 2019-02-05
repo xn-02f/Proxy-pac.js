@@ -16,21 +16,25 @@ const banner = `/*
 `;
 
 // Compound cache test file for Travis test
-gulp.task('test', function () {
+gulp.task('test', function (done) {
     gulp.src(['./src/for-test.js', './src/list.js'])
         .pipe(concat('proxy-pac.test.js'))
         .pipe(gulp.dest('./test/'));
+    done();
 });
+gulp.task('test').description = 'Compound cache test file for Travis test';
 
 // Compound proxy-pac.js file
-gulp.task('main', function () {
+gulp.task('main', function (done) {
     gulp.src(['./src/list.js', './src/pac-main.js'])
         .pipe(concat('proxy-pac.js'))
         .pipe(gulp.dest('./dist/'));
+    done();
 });
+gulp.task('main').description = 'Compound proxy-pac.js file';
 
 // Minify file & Generate proxy-pac.min.js
-gulp.task('min', function () {
+gulp.task('min', function (done) {
     gulp.src('./dist/proxy-pac.js')
         .pipe(uglify())
         .pipe(header(banner))
@@ -39,7 +43,9 @@ gulp.task('min', function () {
             suffix: '.min'
         }))
         .pipe(gulp.dest('./dist/'));
+    done();
 });
+gulp.task('min').description = 'Minify file & Generate proxy-pac.min.js';
 
 // Default task
-gulp.task('default', ['main', 'min']);
+gulp.task('default', gulp.series('main', gulp.parallel('min')));
