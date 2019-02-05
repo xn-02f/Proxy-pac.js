@@ -21,5 +21,7 @@ These files can be used currently as pac file for your proxy (eg. shadowsocks) o
 <br>
 <br>
 <div align=center>
-    &copy; 2019 &nbsp; | &nbsp; <a href="https://huiyifyj.github.io">Huiyi.FYJ</a>
+    <sub>
+        &copy; 2019 | <a href="https://xn--02f.com">xn-02f</a>
+    </sub>
 </div>
