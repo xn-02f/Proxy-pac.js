@@ -14,3 +14,6 @@ yarn-error.log
 
 # test cache
 test/proxy-pac.test.js
+
+# build folder and files
+dist/
