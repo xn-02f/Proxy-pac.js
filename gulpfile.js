@@ -17,7 +17,7 @@ const banner = `/*
 
 // Compound cache test file for Travis test
 gulp.task('test', function () {
-    gulp.src(['./src/list.js', './src/for-test.js', './src/pac-main.js'])
+    gulp.src(['./src/for-test.js', './src/list.js'])
         .pipe(concat('proxy-pac.test.js'))
         .pipe(gulp.dest('./test/'));
 });
