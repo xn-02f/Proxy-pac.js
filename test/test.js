@@ -3,8 +3,6 @@
  */
 const rules = require('./proxy-pac.test');
 
-const result = rules instanceof Array;
-
-if (result) {
-    console.log('\n  √ Test Pass...  \n');
+if (rules instanceof Array) {
+    console.log('\n  ✔ Test Pass...\n');
 }
