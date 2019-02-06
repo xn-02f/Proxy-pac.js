@@ -25,7 +25,7 @@ gulp.task('clean').description = 'Clean build and cache files';
 
 // Compound cache test file for Travis test
 gulp.task('test', function (done) {
-    gulp.src(['./src/for-test.js', './src/list.js'])
+    gulp.src(['./src/list.js', './src/for-test.js'])
         .pipe(concat('proxy-pac.test.js'))
         .pipe(gulp.dest('./test/'));
     done();
