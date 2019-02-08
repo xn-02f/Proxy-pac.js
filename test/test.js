@@ -1,10 +1,17 @@
 /*
  * This file is used to judge whether 'rules' is array type.
  */
-const rules = require('./proxy-pac.test');
+const pac = require('./proxy-pac.test');
+const gfwlist = require('./gfwlist.test');
 
-if (rules instanceof Array) {
-    console.log('\n  ✔ Test Pass...\n');
+if (pac instanceof Array) {
+    console.log('\n  ✔ Proxy-pac Test Pass...\n');
 } else {
-    throw new Error('rules is not array...')
+    throw new Error('pac is not array...')
+}
+
+if (gfwlist instanceof Array) {
+    console.log('\n  ✔ Gfwlist Test Pass...\n');
+} else {
+    throw new Error('gfwlist is not array...')
 }

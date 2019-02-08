@@ -28,6 +28,9 @@ gulp.task('test', function (done) {
     gulp.src(['./src/list.js', './src/for-test.js'])
         .pipe(concat('proxy-pac.test.js'))
         .pipe(gulp.dest('./test/'));
+    gulp.src(['./src/gfwlist.js', './src/for-test.js'])
+        .pipe(concat('gfwlist.test.js'))
+        .pipe(gulp.dest('./test/'));
     done();
 });
 gulp.task('test').description = 'Compound cache test file for Travis test';
