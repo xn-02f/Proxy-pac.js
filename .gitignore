@@ -10,10 +10,12 @@ yarn-error.log
 
 # Mac
 .DS_Store
-*/.DS_Store
 
 # test cache
 test/*.test.js
 
 # build folder and files
 dist/
+
+# temporary files or folders
+*.txt
