@@ -17,44 +17,40 @@ const banner = `/*
 `;
 
 // Clean build and cache files
-gulp.task('clean', function (done) {
-    del('dist');
-    done();
+gulp.task('clean', async () => {
+    await del('dist');
 });
 gulp.task('clean').description = 'Clean build and cache files';
 
-// Compound cache test file for Travis test
-gulp.task('test', function (done) {
-    gulp.src(['./src/list.js', './src/for-test.js'])
-        .pipe(concat('proxy-pac.test.js'))
-        .pipe(gulp.dest('./test/'));
-    gulp.src(['./src/gfwlist.js', './src/for-test.js'])
-        .pipe(concat('gfwlist.test.js'))
-        .pipe(gulp.dest('./test/'));
-    done();
+// Compound cache test file for test tools.
+gulp.task('test', async () => {
+    await gulp.src(['./src/list.js', './src/for-test.js'])
+              .pipe(concat('proxy-pac.test.js'))
+              .pipe(gulp.dest('./test/'));
+    await gulp.src(['./src/gfwlist.js', './src/for-test.js'])
+              .pipe(concat('gfwlist.test.js'))
+              .pipe(gulp.dest('./test/'));
 });
 gulp.task('test').description = 'Compound cache test file for Travis test';
 
 // Compound proxy-pac.js file
-gulp.task('main', function (done) {
-    gulp.src(['./src/list.js', './src/pac-main.js'])
-        .pipe(concat('proxy-pac.js'))
-        .pipe(gulp.dest('./dist/'));
-    done();
+gulp.task('main', async () => {
+    await gulp.src(['./src/list.js', './src/pac-main.js'])
+              .pipe(concat('proxy-pac.js'))
+              .pipe(gulp.dest('./dist/'));
 });
 gulp.task('main').description = 'Compound proxy-pac.js file';
 
 // Minify file & Generate proxy-pac.min.js
-gulp.task('min', function (done) {
-    gulp.src('./dist/proxy-pac.js')
-        .pipe(uglify())
-        .pipe(header(banner))
-        .pipe(rename({
-            basename: 'proxy-pac',
-            suffix: '.min'
-        }))
-        .pipe(gulp.dest('./dist/'));
-    done();
+gulp.task('min', async () => {
+    await gulp.src('./dist/proxy-pac.js')
+              .pipe(uglify())
+              .pipe(header(banner))
+              .pipe(rename({
+                  basename: 'proxy-pac',
+                  suffix: '.min'
+              }))
+              .pipe(gulp.dest('./dist/'));
 });
 gulp.task('min').description = 'Minify file & Generate proxy-pac.min.js';
 
