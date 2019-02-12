@@ -16,6 +16,14 @@ Type `https://unpkg.com/proxy-pac.js/dist/proxy-pac.min.js` (or other CDN url) i
 
 These files can be used currently as pac file for your proxy (eg. shadowsocks) on linux, Mac, even Windows.
 
+**Development** :
+```bash
+$ git clone --recurse-submodules git@github.com:huiyifyj/comment.js.git
+$ cd comment.js
+$ npm i
+$ npm run test && npm run dist
+```
+
 > LICENSE: [GPL-3.0](https://github.com/xn-02f/Proxy-pac.js/blob/master/LICENSE)
 
 <br>
