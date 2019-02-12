@@ -32,6 +32,9 @@ gulp.task('main', async () => {
     await gulp.src(['./src/list.js', './src/pac-main.js'])
               .pipe(concat('proxy-pac.js'))
               .pipe(gulp.dest('./dist/'));
+    await gulp.src(['./src/gfwlist.js', './src/pac-main.js'])
+              .pipe(concat('gfwlist-pac.js'))
+              .pipe(gulp.dest('./dist/'));
 });
 gulp.task('main').description = 'Compound proxy-pac.js file';
 
@@ -42,6 +45,14 @@ gulp.task('min', async () => {
               .pipe(header(banner))
               .pipe(rename({
                   basename: 'proxy-pac',
+                  suffix: '.min'
+              }))
+              .pipe(gulp.dest('./dist/'));
+    await gulp.src('./dist/gfwlist-pac.js')
+              .pipe(uglify())
+              .pipe(header(banner))
+              .pipe(rename({
+                  basename: 'gfwlist-pac',
                   suffix: '.min'
               }))
               .pipe(gulp.dest('./dist/'));
