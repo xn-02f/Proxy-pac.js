@@ -1,6 +1,6 @@
 {
   "name": "proxy-pac.js",
-  "version": "0.2.13",
+  "version": "1.0.0",
   "description": "This is a file that set proxy auto-config(PAC) in JavaScript.",
   "main": "./dist/proxy-pac.min.js",
   "license": "GPL-3.0",
@@ -8,11 +8,14 @@
     "test": "gulp test && cd test && node test",
     "dist": "gulp main && gulp min"
   },
-  "homepage": "https://github.com/huiyifyj/Proxy-pac.js",
   "author": {
     "name": "xn-02f",
     "url": "https://xn--02f.com"
   },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/huiyifyj/Proxy-pac.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huiyifyj/Proxy-pac.js.git"
@@ -20,15 +23,6 @@
   "bugs": {
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
   },
-  "keywords": [
-    "Proxy-pac.js",
-    "pac",
-    "proxy",
-    "gfwlist",
-    "gfw",
-    "network",
-    "js"
-  ],
   "dependencies": {
     "js-base64": "^2.5.1"
   },
@@ -39,5 +33,14 @@
     "gulp-header": "^2.0.7",
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.1"
-  }
+  },
+  "keywords": [
+    "Proxy-pac.js",
+    "pac",
+    "proxy",
+    "gfwlist",
+    "gfw",
+    "network",
+    "js"
+  ]
 }
