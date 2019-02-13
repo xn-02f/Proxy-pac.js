@@ -23,16 +23,14 @@
   "bugs": {
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
   },
-  "dependencies": {
-    "js-base64": "^2.5.1"
-  },
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-header": "^2.0.7",
     "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.1"
+    "gulp-uglify": "^3.0.1",
+    "js-base64": "^2.5.1"
   },
   "keywords": [
     "Proxy-pac.js",
