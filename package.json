@@ -5,7 +5,8 @@
   "main": "./dist/proxy-pac.min.js",
   "license": "GPL-3.0",
   "scripts": {
-    "test": "gulp test && cd test && node test",
+    "test": "cd test && node test",
+    "pretest": "gulp test",
     "dist": "gulp main && gulp min"
   },
   "author": {
