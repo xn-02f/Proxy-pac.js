@@ -8,7 +8,7 @@ const del = require('del');
 const pkg = require('./package.json');
 
 // Header Copyright Content For Minify File
-const banner = `/*! ${pkg.name} | ${pkg.license} | ${pkg.version} - ${pkg.description}  */`;
+const banner = `/*! ${pkg.name} | ${pkg.license} | ${pkg.version} - ${pkg.description}  */\n`;
 
 // Clean build and cache files
 gulp.task('clean', async () => {
