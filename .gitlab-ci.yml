@@ -1,0 +1,20 @@
+# GitLab CI configuration
+# https://gitlab.com/huiyifyj/Proxy-pac.js
+image: node:latest
+
+stages:
+  - test
+  - build
+
+before_script:
+  - npm install
+
+test:
+  stage: test
+  script:
+    - npm run test
+
+build:
+  stage: build
+  script:
+    - npm run dist
