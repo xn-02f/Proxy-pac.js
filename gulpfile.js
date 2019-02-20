@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const size = require('gulp-size');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const rename = require('gulp-rename');
@@ -20,10 +21,16 @@ gulp.task('clean').description = 'Clean build and cache files';
 gulp.task('test', async () => {
     await gulp.src(['./src/list.js', './src/for-test.js'])
               .pipe(concat('proxy-pac.test.js'))
-              .pipe(gulp.dest('./test/'));
+              .pipe(gulp.dest('./test/'))
+              .pipe(size({
+                  showFiles: true
+              }));
     await gulp.src(['./src/gfwlist.js', './src/for-test.js'])
               .pipe(concat('gfwlist.test.js'))
-              .pipe(gulp.dest('./test/'));
+              .pipe(gulp.dest('./test/'))
+              .pipe(size({
+                  showFiles: true
+              }));
 });
 gulp.task('test').description = 'Compound cache test file for Travis test';
 
@@ -31,10 +38,16 @@ gulp.task('test').description = 'Compound cache test file for Travis test';
 gulp.task('main', async () => {
     await gulp.src(['./src/list.js', './src/pac-main.js'])
               .pipe(concat('proxy-pac.js'))
-              .pipe(gulp.dest('./dist/'));
+              .pipe(gulp.dest('./dist/'))
+              .pipe(size({
+                  showFiles: true
+               }));
     await gulp.src(['./src/gfwlist.js', './src/pac-main.js'])
               .pipe(concat('gfwlist-pac.js'))
-              .pipe(gulp.dest('./dist/'));
+              .pipe(gulp.dest('./dist/'))
+              .pipe(size({
+                  showFiles: true
+              }));
 });
 gulp.task('main').description = 'Compound proxy-pac.js file';
 
@@ -47,7 +60,10 @@ gulp.task('min', async () => {
                   basename: 'proxy-pac',
                   suffix: '.min'
               }))
-              .pipe(gulp.dest('./dist/'));
+              .pipe(gulp.dest('./dist/'))
+              .pipe(size({
+                  showFiles: true
+              }));
     await gulp.src('./dist/gfwlist-pac.js')
               .pipe(uglify())
               .pipe(header(banner))
@@ -55,7 +71,10 @@ gulp.task('min', async () => {
                   basename: 'gfwlist-pac',
                   suffix: '.min'
               }))
-              .pipe(gulp.dest('./dist/'));
+              .pipe(gulp.dest('./dist/'))
+              .pipe(size({
+                  showFiles: true
+              }));
 });
 gulp.task('min').description = 'Minify file & Generate proxy-pac.min.js';
 
