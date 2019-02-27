@@ -19,8 +19,8 @@ These files can be used currently as pac file for your proxy (eg. shadowsocks) o
 
 **Development** :
 ```bash
-$ git clone --recurse-submodules git@github.com:huiyifyj/comment.js.git
-$ cd comment.js
+$ git clone --recurse-submodules git@github.com:xn-02f/Proxy-pac.js.git
+$ cd Proxy-pac.js
 $ npm i
 $ npm run test && npm run dist
 ```
