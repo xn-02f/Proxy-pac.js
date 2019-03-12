@@ -7,6 +7,7 @@
   "scripts": {
     "test": "cd test && node test",
     "pretest": "gulp test",
+    "generate": "node lib/decode.js && node lib/generate.js",
     "dist": "gulp main && gulp min"
   },
   "author": {
