@@ -366,6 +366,7 @@ var rules = [
     "||scache2.vzw.com",
     "||ss7.vzw.com",
     "||ssr.tools",
+    "||steemit.com",
     "||taiwanjustice.net",
     "||tinc-vpn.org",
     "||wenzhao.ca",
