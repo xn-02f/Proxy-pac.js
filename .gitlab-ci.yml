@@ -1,5 +1,5 @@
 # GitLab CI configuration
-# https://gitlab.com/huiyifyj/Proxy-pac.js
+# https://gitlab.com/xn-02f/Proxy-pac.js
 image: node:latest
 
 stages:
@@ -17,4 +17,5 @@ test:
 build:
   stage: build
   script:
+    - npm run generate
     - npm run dist

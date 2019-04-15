@@ -7,4 +7,5 @@ install: npm i
 
 script:
   - npm run test
+  - npm run generate
   - npm run dist
