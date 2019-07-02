@@ -26,7 +26,7 @@
     "url": "https://github.com/huiyifyj/Proxy-pac.js/issues"
   },
   "devDependencies": {
-    "del": "^4.1.1",
+    "del": "^5.0.0",
     "gulp": "^4.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-header": "^2.0.7",
