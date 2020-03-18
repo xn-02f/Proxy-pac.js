@@ -31,6 +31,6 @@ $ npm run test && npm run dist
 <br>
 <div align=center>
     <sub>
-        &copy; 2019 | <a href="https://xn--02f.com">xn-02f</a>
+        &copy; 2020 | <a href="https://xn--02f.com">xn-02f</a>
     </sub>
 </div>
