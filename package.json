@@ -33,7 +33,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-size": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "js-base64": "^2.5.1"
+    "js-base64": "^3.6.0"
   },
   "keywords": [
     "Proxy-pac.js",
